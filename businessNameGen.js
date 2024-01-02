@@ -40,7 +40,7 @@ else if(random>0.33 && random<0.66){
     second="Food"
 }
 else{
-    second="Garments"
+    second="Pretty"
 
 }
 

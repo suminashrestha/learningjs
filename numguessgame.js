@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")();
 // Exercise 1: Guess the number
 let chances = 0
 // Keep asking for the number until the correct number is guessed
@@ -7,7 +8,7 @@ let number = 0;
 
 // Eventually after the game is over, display the (100 - Number of chances) and the actual number
 while (number != random) {
-number = Number.parseInt((prompt("enter your number between 1 and 10")))
+number = Number.parseInt((prompt("enter your number between 1 and 10: ")))
 if (number > random) {
 console.log("number is greater than random")
 }
